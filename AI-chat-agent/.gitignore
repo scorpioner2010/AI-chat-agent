@@ -1,0 +1,105 @@
+# Visual Studio temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# JetBrains Rider / IntelliJ temporary files
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code settings
+.vscode/
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Publish and artifact output
+[Pp]ublish/
+[Aa]rtifacts/
+
+# Test results and coverage output
+[Tt]est[Rr]esults/
+[Tt]est[Rr]esult*/
+*.trx
+[Cc]overage/
+[Cc]overage[Rr]esults/
+coverage.*
+
+# NuGet temporary packages
+packages/
+.nuget/packages/
+*.nupkg
+*.snupkg
+
+# Logs
+[Ll]ogs/
+[Ll]og/
+*.log
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+local.settings.json
+secrets.json
+*.secrets.json
+*.secret.json
+.secrets/
+secrets/
+
+# Local appsettings overrides
+appsettings.Local.json
+appsettings.Development.json
+
+# Playwright browser binaries, profiles, reports, and authentication state
+.playwright/
+.playwright-cache/
+ms-playwright/
+playwright-report/
+blob-report/
+test-results/
+browser-profile/
+browser-profiles/
+user-data-dir/
+.auth/
+playwright/.auth/
+storageState.json
+storage-state.json
+*auth-state*.json
+
+# Operating system temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*~
+~$*
+.fuse_hidden*
+.nfs*
