@@ -1,3 +1,13 @@
 <Solution>
-  <Project Path="AIChatAgent.App/AIChatAgent.App.csproj" Id="07aa7053-9893-4d6c-8d13-f4a44f573b12" />
+  <Folder Name="/src/">
+    <Project Path="src/AIChatAgent.Application/AIChatAgent.Application.csproj" />
+    <Project Path="src/AIChatAgent.App/AIChatAgent.App.csproj" Id="07aa7053-9893-4d6c-8d13-f4a44f573b12" />
+    <Project Path="src/AIChatAgent.Domain/AIChatAgent.Domain.csproj" />
+    <Project Path="src/AIChatAgent.Infrastructure/AIChatAgent.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AIChatAgent.Application.Tests/AIChatAgent.Application.Tests.csproj" />
+    <Project Path="tests/AIChatAgent.Domain.Tests/AIChatAgent.Domain.Tests.csproj" />
+    <Project Path="tests/AIChatAgent.Infrastructure.Tests/AIChatAgent.Infrastructure.Tests.csproj" />
+  </Folder>
 </Solution>
